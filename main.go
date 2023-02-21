@@ -63,5 +63,5 @@ func main() {
 	route.GET("/api/snippets/:id", getSnippetById)
 	route.POST("/api/snippets", createSnippet)
 
-	route.Run(":5000")
+	route.Run()
 }
